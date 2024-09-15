@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <a href="#default" class="logo">Online Store</a>
+        <div class="header-right">
+          <a class="menu" href="#login">Login</a>
+          <a class="menu" href="#wishlist">Wishlist</a>
+          <a class="menu" href="#cart" id="cart-link">Cart</a>
+        </div>
+        <div class="search-bar">
+            <form id="search-form" action="/search" method="GET">
+                
+                <input type="text" id="search-bar" name="query" placeholder="Search...">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <p>Your cart is currently empty.</p>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+
+      <div class="header2">
+        <ul class="main-menu">
+         <li>
+             <a href="www.google.com" class="navbutton">Beauty and personal care</a>
+         </li>
+         <li>
+             <a href="www.google.com" class="navbutton">Drink</a>
+         </li>
+         <li>
+             <a href="www.google.com" class="navbutton">Electronics</a>
+         </li>
+         <li>
+            <a href="www.google.com" class="navbutton">Fashion and apparel</a>
+        </li>
+        <li>
+            <a href="www.google.com" class="navbutton">Furniture</a>
+        </li>
+        <li>
+            <a href="www.google.com" class="navbutton">Travel</a>
+        </li>
+        </ul> 
+      </div>
+      
+        
+      <div class="title">
+        <h2>Most Viewed Products</h2>
+    </div>
+      <div class="main">
+        <div class="product-grid">
+            <div class="product">
+                <img class="image" src="playstation_5_slim_digital_edition.jpg" alt="Product Image">
+                <h3>Playstation 5 Digital Edition</h3>
+                <p>Price: $299</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="xbox-series-s-console-with-optional-extras.jpg" alt="Product Image">
+                <h3>Xbos Series S</h3>
+                <p>Price: $249</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="QQLK9_SQ1_0000000004_BLACK_SLf.jpg" alt="Product Image">
+                <h3>Xbox Series X</h3>
+                <p>Price: $399</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="nintendo-switch-neon-console-11-everybody-1-2-switch.jpg" alt="Product Image">
+                <h3>Nintendo Switch Bundle</h3>
+                <p>Price: $349</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="811XImmrSdL._AC_UL200_SR200,200_.jpg" alt="Product Image">
+                <h3>Logitech G920</h3>
+                <p>Price: $249</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="download.jpg" alt="Product Image">
+                <h3>10.9 Inch iPad 64GB</h3>
+                <p>Price: $519</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            </div>
+            <div class="title">
+                <h2>Trending Products</h2>
+            </div>
+            <div class="main">
+                <div class="product-grid">
+                    <div class="product">
+                        <img class="image" src="s-l400.jpg" alt="Product Image">
+                        <h3>Apple iPhone 13</h3>
+                        <p>Price: $329</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img class="image" src="AIG3614350.jpg" alt="Product Image">
+                        <h3>Office Chair</h3>
+                        <p>Price: $149</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    <div class="product">
+                        <img class="image" src="download (1).jpg" alt="Product Image">
+                        <h3>Gaming Desktop</h3>
+                        <p>Price: $899</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img class="image" src="Samsung-Galaxy-S23-Ultra-Green.jpg" alt="Product Image">
+                        <h3>Samsung S23</h3>
+                        <p>Price: $349</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img class="image" src="81XjNSpo1zS._AC_UL200_SR200,200_.jpg" alt="Product Image">
+                        <h3>Gaming Desk</h3>
+                        <p>Price: $119</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img class="image" src="image_2_345705.jpg" alt="Product Image">
+                    <h3>Gaming Chair</h3>
+                    <p>Price: $119</p>
+                    <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+                </div>
+                <div class="title">
+                    <h2>Products You May Like</h2>
+                </div>
+                <div class="main">
+                    <div class="product-grid">
+                        <div class="product">
+                            <img src="white-and-black-jacket-photo.jpg" alt="Product Image">
+                            <h3>Jacket</h3>
+                            <p>Price: $20</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img src="illustration-of-sneaker-sport-shoes-free-vector.jpg" alt="Product Image">
+                            <h3>Trainers</h3>
+                            <p>Price: $100</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                            <div class="product">
+                            <img src="game-controller-icon-illustration-free-vector.jpg" alt="Product Image">
+                            <h3>PS5 Controller</h3>
+                            <p>Price: $49</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img src="G03-200x200.jpg" alt="Product Image">
+                            <h3>Handbag</h3>
+                            <p>Price: $39</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img src="BRU-8-1_200x200.jpg" alt="Product Image">
+                            <h3>Suitcase</h3>
+                            <p>Price: $39</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="61qEFDjZArL._AC_UL200_SR200,200_.jpg" alt="Product Image">
+                        <h3>UNO Cards</h3>
+                        <p>Price: $10</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                </div>
+    
+                    </div>
+                    
+                    
+                        </div>
+    </div>
+       
+</body>
+</html>
