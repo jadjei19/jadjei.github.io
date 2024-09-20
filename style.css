@@ -236,3 +236,31 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+.footer {
+  background-color: #333488;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
